@@ -238,3 +238,12 @@ button {
     border: none;
     border-radius: 30px;
 }
+
+.btnTop {
+    position: fixed;
+    right: 5vw;
+    bottom: 10vh;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border-radius: 30px;
+}
