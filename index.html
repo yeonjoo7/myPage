@@ -21,8 +21,8 @@
             <li><A href="#Contact">Contact</A></li>  
         </ul>
         <ul class="navbar__links">
-            <li><a href="https://github.com/yeonjoo7"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://velog.io/@yeonjoo7"><i class="fa-regular fa-laptop-code"></i></a></li>
+            <li><a href="https://github.com/yeonjoo7" target="mapage-github"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://velog.io/@yeonjoo7" target="mypage-velog"><i class="fa-regular fa-laptop-code"></i></a></li>
         </ul>
         <a href="#" class="navbar__toggle">
             <i class="fa-solid fa-align-justify"></i>
@@ -30,16 +30,16 @@
     </nav>
     <div class="content">
         <A name="Hi!"></A>
-        <br><br><br><br><br><br>
-        <h1 class="content__text">🔥 안녕하세요!</h1>
-        <span class="content__text boxing">여기에 사진을 넣을까 말까 고민중이에요</span>
-        <p class="content__text blackColor">여행을 좋아하고 이야기 듣는 것을 좋아합니다!</p>
+        <br><br>
+        <h1>👩‍💻 안녕하세요! 🙆‍♀️</h1>
+        <canvas></canvas>
+        <p class="content__text blackColor">새로운 것을 찾아다니고 소통하는 것을 좋아하는 예비개발자입니다!</p>
         <br><br><br><br><br><br>
         <A name="Studying"></A>
-        <p class="title">WIL</p>
-        <p class="content__text blackColor">개발자 취업을 목표로 공부하고 있습니다. <br> html, css, javascript를 배우고 있습니다.</p>
+        <p class="title">What I've learned 📚</p>
+        <p class="content__text blackColor">멋쟁이 사자처럼 인공지능 1기를 수료하고, <br> wecode 풀스택 4기를 진행중입니다. <br> javascript를 공부하고 있습니다.</p>
         <br><br>
-        <span class="content__text blackColor">공부중인 스택</span>
+        <span class="content__text">공부중인 스택</span>
         <p>
             <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
             <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
@@ -57,31 +57,35 @@
         <br><br><br><br><br><br>
         <A name="Projects"></A>
         <p class="title">작업물</p>
+        <button class="btn__previous"><</button>
         <div class="container">
             <div class="carousel">
                 <div class="inner">
+                    <p class="img_caption">첫번째 프로젝트 넣을 자리</p>
                     <img src="No soup for you! Is no way to have a growth mindset, but how do we avoid the swirl_.png" alt="If you want to go fast, go alone. If you want to go far, go together!">
                 </div>
                 <div class="inner">
-                    <img src="배열filter2.PNG" alt="자바스크립트 배열 filter 메서드">
+                    <img src="michelle-spollen-unsplash.jpg" alt="mountain and ocean">
+                    <span>두번째 프로젝트 넣을 자리</span>
                 </div>
                 <div class="inner">
-                    <img src="함수의반환.PNG" alt="자바스크립트 함수의 반환">
+                    <img src="shot-by-cerqueira-unsplash.jpg" alt="sunset and pinky sand">
+                    <span>세번째 프로젝트 넣을 자리</span>
                 </div>
             </div>
         </div>
-        <button class="btn1">1</button>
-        <button class="btn2">2</button>
-        <button class="btn3">3</button>
-
-
-        <br><br><br><br><br><br>
+        <button class="btn__next">></button>
+        
+        <br><br><br><br><br><br><br>
         <A name="Contact"></A>
-        <p class="title">연락하기</p>
-        <p class="content__text blackColor">📧email:&nbsp; rladuswn7@naver.com</p>
-        <p class="content__text blackColor">📧email:&nbsp; jenny.likes.breeze@gmail.com</p>
-        <span class="content__text blackColor">📝velog:&nbsp;</span> <span class="content__text blackColor"><a href="https://velog.io/@yeonjoo7">@yeonjoo7</a></span>
-        <br><br><br>
+        <p class="title">연락하기 🙌</p>
+        <div class="contactBox">
+            <span onclick="copyEmail('naverMail');" class="content__text blackColor cursor">📧email:&nbsp; rladuswn7@naver.com</span><br>
+            <span onclick="copyEmail('gmail');" class="content__text blackColor cursor">📧email:&nbsp; jenny.likes.breeze@gmail.com</span> <br>
+            <span class="content__text cursor"><a class="blackColor" href="https://velog.io/@yeonjoo7" target="mypage-velog">📝velog:&nbsp; @yeonjoo7</a> </span> <br>
+            <span class="content__text cursor"><a class="blackColor" href="https://github.com/yeonjoo7" target="mapage-github"><i class="fab fa-github"></i> github:&nbsp; /yeonjoo7</a></span>
+        </div>
+    <br><br><br>
     </div>
 </body>
 </html>
